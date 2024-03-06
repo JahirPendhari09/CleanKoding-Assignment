@@ -1,0 +1,49 @@
+.singleBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden; 
+    transition: height 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+  
+.singleBox img {
+    width: 60%;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.singleBox h4 {
+    margin-bottom: 5px;
+    text-align: left;
+}
+  
+.singleBox p {
+    margin-bottom: 10px;
+    font-size:16px ;
+    text-align: left;
+}
+  
+.singleBox .toggleButton {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  
+.singleBox.showFullDescription {
+    height: auto;
+}
+  
